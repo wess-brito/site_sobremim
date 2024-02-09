@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner, section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 25px 0;
+    margin-bottom: 50px;
+    background-color: #000923;
+    color: #ecf0f1;
+}
+
+header h1, section h2 {
+    font-weight: bold;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+header, section h2, form button {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+body, input, textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.soft-skills p {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.soft-skills img {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.soft-skills li {
+    display: inline;
+    margin-right: 30px;
+}
+
+section .conteiner {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #000923;
+}
+
+section h2 {
+    margin-bottom: 35px;
+}
+
+section h3 {
+    margin-bottom: 25px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+.minha-foto {
+    height: 500px;
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 45px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .conteiner {
+    display: block;
+}
+
+.form-block {
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #e9e9e9;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, form textarea {
+    display: block;
+    width: 320px;
+    border: solid;
+    border-color: #dbc2ff;
+    border-radius: 25px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 20px 10px;
+    width: 320px;
+    background-color: #000923;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ecf0f1;
+    color: #000923;
+    border: solid;
+    border-color: #000923;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #000923;
+    color: #ecf0f1;
+    padding: 30px 0;
+}
+
+footer p {
+    text-align: center;
+}
